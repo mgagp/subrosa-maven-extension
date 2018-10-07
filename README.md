@@ -56,3 +56,7 @@ mvn install
 
 c) Add property version_value in subrosa-project.properties.  
 Ex: version_value=5.5.6-SNAPSHOT
+
+You can then open feature branches or any type of branches and rebase or merge whenever you want without fear of merge conflicts.  
+Keeping the version of the project outside of the pom.xml file is the key to make sure you do not have useless conflicts.  
+With only structural changes in your pom.xml such as adding a module and/or changing the list of dependencies, rebasing and merging becomes much easier.
